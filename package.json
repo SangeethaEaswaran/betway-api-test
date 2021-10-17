@@ -1,0 +1,28 @@
+{
+  "name": "betway-api-test",
+  "version": "1.0.0",
+  "description": "betway API automation test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha test/*.test.js --reporter mochawesome --reporter-options reportDir=report,reportFilename=reportFile,autoOpen=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SangeethaEaswaran/betway-api-test.git"
+  },
+  "author": "Sangeetha Easwaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SangeethaEaswaran/betway-api-test/issues"
+  },
+  "homepage": "https://github.com/SangeethaEaswaran/betway-api-test#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  },
+  "devDependencies": {
+    "mochawesome": "^6.3.1",
+    "mochawesome-report-generator": "^5.2.0"
+  }
+}
